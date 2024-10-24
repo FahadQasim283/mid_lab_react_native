@@ -60,7 +60,7 @@ function isPrimeNumber(num) {
 }
 
 // checkNameLength(names);
-checkNameLength(names)
+checkNameLength(names);
 export default function App() {
   return (
     <View style={styles.container}>
@@ -74,9 +74,7 @@ export default function App() {
 function HomeScreen() {
   return (
     <View style={styles.HomeScreen}>
-      <Text style={{ fontSize: 30 }}>
-        Emotion Detection
-      </Text>
+      <Text style={{ fontSize: 30 }}>Emotion Detection</Text>
       <EmotionStatView name="Fahad" registration="034" />
       <GraprhView name="Fahad" registration="034" />
       <CountryList />
